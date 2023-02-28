@@ -16,7 +16,7 @@ body,
 }
 
 .left-section {
-    background-image: url("/images/nature-edit.jpg");
+    background-image: url("../images/nature-edit.jpg");
     background-color: var(--black);
     background-position: left;
     background-repeat: no-repeat;
