@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-section">
+        <div class="left-section-body">
+            <img src="images/logo-edit.jpeg" alt="logo-image">
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="explanation">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up now to get started.</p>
+        </div>
+        <form action="" method="post">
+            <ul class="form-row">
+                <li>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="user-first-name" id="first-name" pattern="" required/>
+                </li>
+                <li>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="user-last-name" id="last-name" pattern="" required/>   
+                </li>
+            </ul>
+            <ul class="form-row">
+                <li>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="user-email" id="email" required/>
+                </li>
+                <li>
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" name="user-tel" id="tel" pattern="" required/>
+                </li>
+            </ul>
+            <ul class="form-row">
+                <li>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="user-password" id="password" pattern="" required/>
+                </li>
+                <li>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="user-confirm-password" id="confirm-password" pattern="" required/>
+                </li>
+            </ul>
+            <div class="account">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span>LOG IN</span></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

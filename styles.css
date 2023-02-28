@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+.form {
+    display: flex;
+    background-color: #f3f3f3;
+}
+
+.left-section {
+    background-image: url("/images/nature-edit.jpg");
+    background-color: #050505;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+.left-section-body img {
+    opacity: 0.5;
+}
+
+.explanation p {
+    font-size: 1.5rem;
+}
+
+.explanation {
+    margin-bottom: 70px;
+    padding-top: 150px;
+}
+
+.right-section {
+    color: #050505;
+    margin: 45px 0;
+    padding: 0 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+button {
+    background-color: #050505;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+}
+
+button:active {
+    border: 2px solid #050505;
+}
+
+.account p {
+    font-size: 1rem;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input:valid {
+    /* box-shadow: inset 1px 1px 3px #f3f3f3; */
+    border: 1px solid #050505;
+    border-radius: 7px;
+}
+
+input:invalid{
+    border: 1px solid red;
+    border-radius: 7px;
+}
